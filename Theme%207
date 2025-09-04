@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches');
 @import url('https://codedotspectra.github.io/themes/core/custom-font.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://betterdiscord.app/theme/Horizontal%20Server%20List.css');
+@import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
 :root {
 --main-theme-color: #B50000FF;
 --theme-transparency: #000000cc;
@@ -67,13 +67,15 @@
 --unread-text-channel-color: #ffffff;
 --unread-text-channel-bubble-color: #ffffff;
 --folder-background-color: #DF0000FF;
---expanded-folder-background-color: ##020000;
+--expanded-folder-background-color: #020000;
 --reaction-emoji-background-color: #00000000;
 --reaction-emoji-border-color: 1px solid transparent;
 --reaction-emoji-hover-background-color: #ffffff1a;
 --reaction-emoji-hover-border-color: #ffffff33;
 --HSL-server-icon-size: 40px;
 --HSL-server-spacing: 10px;
+--HSL-server-direction: column;
+--HSL-server-alignment: flex-start;
 --rs-small-spacing: 2px;
 --rs-medium-spacing: 3px;
 --rs-large-spacing: 4px;
